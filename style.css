@@ -1,0 +1,93 @@
+.project-content {
+    height: 100vh;
+    color: white;
+    background-color: #161616;
+    /* margin-left: 20px; */
+    
+    /* Background Image */
+    /* background: url('/back.jpg') no-repeat center center; */
+    
+    background-size: cover; /* Ensures it covers the entire div */
+    background-attachment: fixed; /* Optional: Makes it fixed during scroll */
+}
+
+.project-heading-2{
+    font-size: 70px ;
+    position:relative;
+    left:80px;
+    margin-left: 20px;
+}   
+.project-heading-1{
+    position: relative;
+    top:34px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px ;
+    font-weight: 400;
+    margin-left: 20px;
+}   
+
+.project-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card{
+    width:325px;
+    /* background:red; */
+    margin: 10px 30px;
+}
+
+.p-card-heading{
+    font-size: 30px;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.p-card-details{
+    
+/*     font-family: "Times New Roman", serif; */
+/*       font-style: italic; */
+}
+
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;;
+}
+
+.skill-items {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.skill-items img {
+    width: 40px; /* Adjust the size of icons */
+    height: 40px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.skill-items:hover img {
+    filter: grayscale(0%);
+}
+
+
+

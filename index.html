@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Indrajith P G</title>
+  <style>
+    /* Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+    scroll-behavior: smooth;
+}
+
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #111;
+      color: #000;
+      line-height: 1.5;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    
+    /* Main Container */
+    .main-container {
+      background-color: white;
+      max-width: full;
+      margin: 0px auto;
+      min-height: 600px;
+    }
+    
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+    
+    .logo {
+      font-family: "Times New Roman", serif;
+      font-style: italic;
+      font-weight: 500;
+    }
+    
+    .nav-menu {
+      display: flex;
+      gap: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+    
+    .contact-link {
+      position: relative;
+    }
+    
+    .contact-link::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #000;
+    }
+    
+    /* Hero Section */
+    .hero {
+      padding: 0 40px 40px;
+      height: 50vh;
+    }
+    
+    .heading-primary {
+      font-size: 9vw;
+      line-height: 0.9;
+      font-weight: 900;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    
+    .heading-secondary {
+      font-family: "Times New Roman", serif;
+      font-style: italic;
+      font-size: 8vw;
+      font-weight: 400;
+      margin-top: -40px;
+      margin-left: 20px;
+    }
+    
+    /* Content Section */
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 40px;
+      gap: 20px;
+      height: 50vh;
+    }
+    
+    .text-content {
+      padding-right: 20px;
+    }
+    
+    .description {
+      font-size: 16px;
+      margin-bottom: 40px;
+      max-width: 400px;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #000;
+      font-size: 16px;
+      position: relative;
+    }
+    
+    .right-content {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .sample-image {
+      width: 150px;
+      height: 80px;
+      margin-bottom: 20px;
+      background-color: #f0e0d6;
+    }
+    
+    .software-title {
+      font-size: 6vw;
+      font-weight: 900;
+      line-height: 0.9;
+    }
+    
+    /* Bottom Banner */
+    .bottom-banner {
+      width: 100%;
+      height: 180px;
+      background-color: #4a5;
+      overflow: hidden;
+    }
+    
+    /* Project Section */
+   
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .content {
+        grid-template-columns: 1fr;
+      }
+      
+      .heading-primary {
+        font-size: 12vw;
+      }
+      
+      .heading-secondary {
+        font-size: 10vw;
+      }
+      
+      .sample-image {
+        margin: 20px 0;
+      }
+      
+      .software-title {
+        font-size: 10vw;
+      }
+      
+      .project-heading-1, .project-heading-2 {
+        font-size: 50px;
+      }
+      
+      .project-heading-2 {
+        left: 40px;
+      }
+      
+      .services li {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="main-container">
+    <header>
+      <div class="logo">
+        <a href="#">Indrajit P G</a>
+      </div>
+      <div class="nav-menu">
+        <a href="#main">Index</a>,
+        <a href="#project">Projects</a>,
+        <a href="#skills">Skills</a>,
+        <a href="#contact">Contact</a>,
+        <!-- <a href="#">Lab</a> -->
+      </div>
+      <div class="contact-link">
+        <a href="https://github.com/grunkleij" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+    </header>
+    
+    <section id="main" class="hero">
+      <h1 class="heading-primary">INDRAJITH P G</h1>
+      <h2 class="heading-secondary">Web Developer</h2>
+    </section>
+    
+    <section class="content">
+      <div class="text-content">
+        <p>Hi, I'm Indrajith P G, a passionate web developer with expertise in React, Node.js, and Laravel. I love creating intuitive and visually appealing web applications that solve real-world problems.</p>
+
+        <!-- <a href="#" class="cta-button">Get a free patreon tutorial sample</a> -->
+      </div>
+      
+      <div class="right-content">
+        <!-- <div class="software-title">
+          FULL<br>
+          STACK
+        </div> -->
+      </div>
+    </section>
+    
+    <section id="project" class="project-content">
+      <h1 class="project-heading-1">FEATURED</h1>
+      <h1 class="project-heading-2">PROJECTS</h1>
+      <div class="project-cards">
+  
+          <!-- Flower Shopping Site -->
+          <div class="project-card" data-aos="fade-up" data-aos-duration="900">
+              <div class="p-card-heading">
+                  🌸 Flower Shopping Site
+              </div>
+              <div class="p-card-details">
+                  Developed an online flower shopping platform using <b>React JS, Node.js, and MySQL</b>. 
+                  Features a seller-friendly product catalog, secure payment gateway, and a powerful search 
+                  and filtering system for easy browsing.
+              </div>
+              <a href="https://github.com/grunkleij/Flower" target="_blank">View on GitHub</a>
+          </div>
+  
+          <!-- Lawyrup -->
+          <div class="project-card" data-aos="fade-up" data-aos-duration="900">
+              <div class="p-card-heading">
+                  ⚖️ Lawyrup
+              </div>
+              <div class="p-card-details">
+                  A legal expert hiring platform built with <b>PHP and MySQL</b>. Allows users to find 
+                  legal professionals based on community feedback, with an integrated rating and review 
+                  system for transparency and trust.
+              </div>
+              <a href="https://github.com/grunkleij/Lawyrup" target="_blank">View on GitHub</a>
+          </div>
+  
+          <!-- Blog Site -->
+          <div class="project-card" data-aos="fade-up" data-aos-duration="900">
+              <div class="p-card-heading">
+                  📝 Laravel Blog Site
+              </div>
+              <div class="p-card-details">
+                  Built a full-featured blog platform using <b>Laravel and MySQL</b>. Includes user authentication, 
+                  post management, categories, and a commenting system for user engagement.
+              </div>
+              <a href="https://github.com/grunkleij/blog-site-laravel" target="_blank">View on GitHub</a>
+          </div>
+  
+      </div>
+  </section>
+  
+
+  
+  
+    <section id="skills" class="skills">
+      <span class="skill-items">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Logo"> React
+      </span>
+      <span class="skill-items">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" alt="Laravel Logo"> Laravel
+      </span>
+      <span class="skill-items">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo"> JavaScript
+      </span>
+      <span class="skill-items">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js Logo"> Node.js
+      </span>
+      <span class="skill-items">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo"> MongoDB
+      </span>
+      <span class="skill-items">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL Logo"> MySQL
+      </span>
+      <span class="skill-items">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git Logo"> Git
+      </span>
+    </section>
+
+
+    <footer id="contact" style="background-color: #fff; border-top: 4px solid #000; padding: 40px; font-family: monospace; text-align: center;">
+
+      <div class="social-links" style="display: flex; justify-content: center; gap: 30px; margin-bottom: 20px; font-size: 18px;">
+        <a href="https://www.linkedin.com/in/indrajith-pg-41572a1a6/" style="color: #000; text-decoration: none; font-weight: bold;">LinkedIn</a>
+        <a href="https://github.com/grunkleij" style="color: #000; text-decoration: none; font-weight: bold;">GitHub</a>
+      </div>
+    
+      <div class="contact-details" style="margin-bottom: 20px; font-size: 16px;">
+        <p><strong>Email:</strong> <a href="mailto:indrajithpg10@gmail.com" style="color: #000; text-decoration: none;">indrajithpg10@gmail.com</a></p>
+        <p><strong>Location:</strong> Kochi, India</p>
+      </div>
+    
+      <p style="margin-top: 10px; font-size: 16px; font-weight: bold;">&copy; 2024 Indrajith P G. All rights reserved.</p>
+    
+    </footer>
+    
+
+
+  </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
